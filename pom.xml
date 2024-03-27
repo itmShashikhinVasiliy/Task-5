@@ -36,6 +36,28 @@
             <version>8.0.25</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/org.springframework/spring-jdbc -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
+            <version>6.1.5</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.7.3</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.scalatestplus.play/scalatestplus-play -->
+        <dependency>
+            <groupId>org.scalatestplus.play</groupId>
+            <artifactId>scalatestplus-play_3</artifactId>
+            <version>7.0.1</version>
+            <scope>test</scope>
+        </dependency>
+
     </dependencies>
 
 
